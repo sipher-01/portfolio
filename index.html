@@ -1,57 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <nav id="navbar">
-        <div id="logo"><img src="/img/sign.png" alt="sign">
-            <a href="#home"></a>
-        </div>
-        <ul>
-            <li class="item">
-                <a href="#about">About</a>
-            </li>
-            <li class="item">
-                <a href="#skill">Skill</a>
-            </li>
-            <li class="item">
-                <a href="#work">Work</a>
-            </li>
-            <li class="item">
-                <a href="#experience">Experience</a>
-            </li>
-            <li class="item">
-                <a href="#contact">Contact Us</a>
-            </li>
-        </ul>
+      <div id="logo">
+        <a href="#home">
+          <img loading="lazy" src="/img/sign.png" alt="sign" />
+        </a>
+      </div>
+      <ul>
+        <li class="item">
+          <a href="#about">About</a>
+        </li>
+        <li class="item">
+          <a href="#skills">Skill</a>
+        </li>
+        <li class="item">
+          <a href="#education">Education</a>
+        </li>
+        <li class="item">
+          <a href="#experience">Experience</a>
+        </li>
+        <li class="item">
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
     </nav>
-    <div class="divider"></div>
-    <section id="home">
+    <div class="main">
+      <div class="divider"></div>
+      <section id="home">
         <div class="home__info">
-            <div class="home__info__div">
-                <p class="h-primary">What's Up!
-                </p>
-                <h3 class="h-secondary">I AM SOURAV.S.KATOCH</h3>
-                <p class="home_info_para">FRONT-END WEBDEVELOPER.</p>
-            </div>
-            <img src="/img/home.jpg" alt="Home Photo">
+          <div class="home__info__div">
+            <p class="h-primary">What's Up!</p>
+            <h3 class="h-secondary">I AM SOURAV.S.KATOCH</h3>
+            <p class="home_info_para">FRONT-END WEBDEVELOPER.</p>
+          </div>
+          <img loading="lazy" src="/img/home.jpg" alt="Home Photo" />
         </div>
-    </section>
-    <section id="about">
+      </section>
+      <section id="about">
         <p class="about_info_para_1">ABOUT ME</p>
         <div class="about_info_div">
-            <img src="/img/about.jpg" alt="About Me">
-            <p class="about_info_para_2">Hi, I am currently pursuing my B.Tech from National Institute of Technolgy, Srinagar. Along side which I am learning WebDevelopment.</p>
+          <img loading="lazy" src="/img/about.jpg" alt="About Me" />
+          <p class="about_info_para_2">
+            Hi, I am currently pursuing my B.Tech from National Institute of
+            Technolgy, Srinagar. Along side which I am learning WebDevelopment.
+          </p>
         </div>
-    </section>
-
-</body>
-
+      </section>
+      <div class="test3" id="skills">
+        <h2 class="myskills">My Skills</h2>
+        <div class="skill_icon1">
+          <img loading="lazy" src="./img/sql.jpeg" alt="" />
+          <img loading="lazy" src="./img/c.jpeg" alt="" />
+          <img loading="lazy" src="./img/c++.jpeg" alt="" />
+          <img loading="lazy" src="./img/js.jpeg" alt="" />
+          <img loading="lazy" src="./img/html.jpeg" alt="" />
+          <img loading="lazy" src="./img/css.jpeg" alt="" />
+        </div>
+      </div>
+      <section id="education" class="education">
+        <h2 class="myedu">Education</h2>
+        <div class="educ">
+          <div class="edu">
+            <h3>Senior Secondary</h3>
+            <p class="inst">M.H.A.C School, Nagbani</p>
+            <p class="year">2019-21</p>
+            <p class="courses">Sciences</p>
+          </div>
+          <div class="edu">
+            <h3>Bachelor of Technology</h3>
+            <p class="inst">National Institute of Technology</p>
+            <p class="year">2021 - 25</p>
+            <p class="courses">Computer Science and Engineering</p>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="experience">
+        <h2 class="myexperience">Experience</h2>
+        <div class="img">
+          <img
+            loading="lazy"
+            src="https://media.tenor.com/FawYo00tBekAAAAC/loading-thinking.gif"
+            alt=""
+          />
+          <img
+            loading="lazy"
+            src="https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F01%2Fq3V3Xe3.jpg&signature=877938d1db7314da642c99678e80700c"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2 class="mycontact">Contact</h2>
+        <div class="conta">
+          <a href="https://www.instagram.com/theloopbreaker/" target="_blank"
+            >Instagram</a
+          ><a href="sourav2003singhkatoch@gmaiil.com" target="_blank">Email</a
+          ><a href="https://www.codechef.com/users/spiher" target="_blank"
+            >CodeChef</a
+          ><a href="https://github.com/sipher-01" target="_blank">Github</a
+          ><a
+            href="https://www.linkedin.com/in/sourav-katoch-787970250"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
